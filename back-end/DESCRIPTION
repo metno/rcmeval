@@ -1,12 +1,10 @@
-Package: gcmeval
-Version: 0.1.4
-Date: Nov 8 2019
+Package: rcmeval
+Version: 0.1.1
+Date: Dec 20 2020
 Title: gcmeval
 Author: Kajsa M. Parding <kajsa.parding@met.no>, 
         Andreas Dobler <andreas.dobler@met.no>,
-	Oskar Landgren <oskar.landgrend@met.no>,
-	Olle Raty <olle.raty@helsinki.fi>, 
-        and Rasmus E. Benestad <rasmus.benestad@met.no>
+	Oskar Landgren <oskar.landgrend@met.no>
 Maintainer: Kajsa Parding <kajsa.parding@met.no>
 Depends:
     R (>= 3.5.0)
@@ -23,5 +21,5 @@ Imports:
     zoo
 Description: The package contains R functions for retrieving and organising data, extracting metadata into a metadatabase.
 License: GPL (>= 2)
-URL: https://github.com/kajsamp/gcmeval
+URL: https://github.com/metno/rcmeval
 ZipData: no
