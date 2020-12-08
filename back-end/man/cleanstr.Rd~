@@ -1,0 +1,18 @@
+\name{cleanstr}
+\title{Remove punctuation from string}
+\description{
+Helper function to "clean" a character string by removing all punctuation and applying \code{tolower}. 
+}
+\usage{
+cleanstr(x)
+}
+\arguments{
+  \item{filename}{name of file}
+  \item{dim}{name of dimension to evaluate resolution based on}
+  \item{}
+  \item{verbose}{If TRUE, display information on progress.}
+}
+\examples{
+find.file("referenceRegions.shp")
+}
+\keyword{file}
